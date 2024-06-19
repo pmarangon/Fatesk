@@ -1,4 +1,6 @@
 from django.test import TestCase
+from core.models import TarefaModel
+from datetime import datetime
 
 class AgendaTest(TestCase):
   def setUp(self):
@@ -11,3 +13,8 @@ class AgendaTest(TestCase):
       
       def test_texto(self):
         self.assertContains(self.resp,'agenda')
+
+
+
+    
+    
