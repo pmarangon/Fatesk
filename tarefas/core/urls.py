@@ -10,6 +10,7 @@ urlpatterns = [
    path('agenda', views.agenda),
    path('', views.index, name='index'),
     path('create', views.create, name='create'),
+    path('pendentes', views.pendentes)
     
 ]
 
