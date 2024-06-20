@@ -16,5 +16,9 @@ class AgendaTest(TestCase):
 
 
 
-    
+    class TarefaFormTest(TestCase):
+
+    def test_tarefa_nome_unico(self):
+        # Criar uma tarefa existente
+        tarefa_existente = TarefaModel.objects.create(titulo="Tarefa Existente")
     
